@@ -1,5 +1,5 @@
 $text-color: #222222;
-
+$header-height: 60%;
 
 body {
   font-family: sans-serif;
@@ -19,7 +19,7 @@ a {
 }
 
 #header {
-
+	height: $header-height;
   #main-menu {
 
   }
