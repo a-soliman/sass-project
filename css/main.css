@@ -14,11 +14,15 @@ a {
 #header {
   height: 60%;
   background-color: #170a48; }
+  #header #main-menu li {
+    display: inline; }
   #header #main-menu a {
     color: #fff; }
 
 #main {
-  width: 960px; }
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
 
 #footer {
   height: 50px;
