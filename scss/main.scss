@@ -34,8 +34,12 @@ a {
 
 #header {
 	height: $header-height;
+	background-color: $theme-color;
   #main-menu {
-
+	
+	a {
+		color: $menu-item-color;
+	}
   }
   
   #logo {

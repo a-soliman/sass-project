@@ -12,6 +12,9 @@ a {
   color: #f27731; }
 
 #header {
-  height: 60%; }
+  height: 60%;
+  background-color: #170a48; }
+  #header #main-menu a {
+    color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
