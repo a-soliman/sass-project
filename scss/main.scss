@@ -48,7 +48,7 @@ a {
 }
 
 #main {
-
+	width: $content-width;
   #content {
   }
 
@@ -57,5 +57,6 @@ a {
 }
 
 #footer {
-
+	height: $footer-height;
+	background-color: $ternary-color;
 }

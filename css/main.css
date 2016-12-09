@@ -17,4 +17,11 @@ a {
   #header #main-menu a {
     color: #fff; }
 
+#main {
+  width: 960px; }
+
+#footer {
+  height: 50px;
+  background-color: #ccf962; }
+
 /*# sourceMappingURL=main.css.map */
