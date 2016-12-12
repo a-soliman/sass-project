@@ -32,7 +32,7 @@ a {
 	padding: 8px 12px;
 }
 #header {
-	@include box;
+	@include box(8px, 1px solid #999);
 	height: $header-height;
 	background-color: $theme-color;
   #main-menu {
