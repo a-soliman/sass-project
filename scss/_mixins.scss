@@ -4,9 +4,9 @@
 }
 
 @mixin box-shadow($shadows...) {
-	box-shadow: $shadow;
-	-moz-box-shadow: $shadow;
-	-webkit-box-shadow: $shadow;
+	box-shadow: $shadows;
+	-moz-box-shadow: $shadows;
+	-webkit-box-shadow: $shadows;
 }
 
 @mixin large-text {
