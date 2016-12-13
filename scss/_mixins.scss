@@ -3,6 +3,12 @@
 	color: #fff;
 }
 
+@mixin box-shadow($shadows...) {
+	box-shadow: $shadow;
+	-moz-box-shadow: $shadow;
+	-webkit-box-shadow: $shadow;
+}
+
 @mixin large-text {
 	font {
 		size: 22px;
