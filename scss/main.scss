@@ -1,7 +1,7 @@
-@import "colors";
-@import "fonts";
-@import "sizes";
-@import "mixins";
+@import "partials/colors";
+@import "partials/fonts";
+@import "partials/sizes";
+@import "partials/mixins";
 
 
 @include fancy-links;
