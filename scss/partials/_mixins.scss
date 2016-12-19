@@ -16,6 +16,12 @@
 	}
 }
 
+@mixin large-screens() {
+	@media only screen and (max-width: 960px) {
+		@content;
+	}
+}
+
 @mixin google-font($font) {
 	$font: unquote($font);
 	@import url(https://fonts.googleapis.com/css?family=#{$font})
