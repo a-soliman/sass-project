@@ -10,7 +10,11 @@
 	}
 }
 
-
+@mixin medium-screens() {
+	@media only screen and (max-width: 680px) {
+		@content;
+	}
+}
 
 @mixin google-font($font) {
 	$font: unquote($font);
