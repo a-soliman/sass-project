@@ -24,12 +24,14 @@ p {
 a {
   color: #f27731; }
   a:hover {
-    color: #ca510d; }
+    color: #e25b0e; }
 
 .warning-button {
   background-color: orange;
   color: #fff;
   padding: 8px 12px; }
+  .warning-button:hover {
+    background-color: #ffc04d; }
 
 * html body {
   font-size: 125%; }
