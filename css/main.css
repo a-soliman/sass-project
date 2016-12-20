@@ -48,7 +48,12 @@ a {
     display: inline; }
   #header #main-menu a {
     color: #fff;
-    padding: 6px 8px; }
+    padding: 6px 8px;
+    border-bottom: 1px solid rgba(254, 254, 254, 0);
+    transition: border-bottom 1s;
+    transition-timing-function: ease-in-out; }
+    #header #main-menu a:hover {
+      border-bottom: 1px solid #fefefe; }
 
 #main {
   width: 960px;
