@@ -47,7 +47,8 @@ a {
   #header #main-menu li {
     display: inline; }
   #header #main-menu a {
-    color: #fff; }
+    color: #fff;
+    padding: 6px 8px; }
 
 #main {
   width: 960px;
