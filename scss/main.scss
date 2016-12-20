@@ -1,8 +1,9 @@
+@import "partials/functions";
 @import "partials/colors";
 @import "partials/fonts";
 @import "partials/sizes";
 @import "partials/mixins";
-@import "partials/functions";
+
 
 
 @include google-font("Alegreya+Sans");
@@ -89,9 +90,23 @@ a {
 	margin-left: auto;
 	margin-right: auto;
   #content {
+  	float: left;
+  	width: 6*$col;
   }
 
   #sidebar {
+  	float: right;
+  	width: 2*$col;
+
+  	li {
+  		list-style-type: none;
+  		padding: em(16px) em(20px);
+  		border-bottom: 1px dashed #999;
+
+  		&:hover {
+  			background-color: #efefef;
+  		}
+  	}
   }
 }
 
