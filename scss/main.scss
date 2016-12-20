@@ -13,6 +13,7 @@
 body {
   font-family: $text-font;
   color: $text-color;
+  font-size: em(18px);
 
   @include large-screens {
 	font-size: 125%;
