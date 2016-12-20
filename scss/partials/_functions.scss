@@ -2,6 +2,17 @@
 	@return $left + $right;
 }
 
+//converting px to em
+
 @function em($pixels, $context: 16px) {
 	@return ($pixels / $context) * 1em;
+}
+
+// calculates the width of a single colum in a grid layput
+	// the columns are 12 default	
+	// total page width 10% 	
+	// the gap between each column is 1% default
+@function col-width($columns: 12, $page-width: 100%, $gap: 1%) {
+	@return ($page-width - $gap*($columns -1)) / $columns;
+	// ($columns -1) because if you have 12 you only have 11 gaps
 }
