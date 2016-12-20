@@ -61,6 +61,13 @@ a {
 	a {
 		color: $menu-item-color;
 		padding: 6px 8px;
+		border-bottom: 1px solid transparentize(#fefefe, 1);
+		transition: border-bottom 1s;
+		transition-timing-function: ease-in-out;
+
+		&:hover {
+			border-bottom: 1px solid opacify(#fefefe, .5);
+		}
 	}
   }
   
