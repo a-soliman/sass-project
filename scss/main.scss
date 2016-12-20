@@ -2,6 +2,8 @@
 @import "partials/fonts";
 @import "partials/sizes";
 @import "partials/mixins";
+@import "partials/functions";
+
 
 @include google-font("Alegreya+Sans");
 @include google-font("Titillium+Web");
@@ -62,7 +64,7 @@ a {
 		color: $menu-item-color;
 		padding: 6px 8px;
 		border-bottom: 1px solid transparentize(#fefefe, 1);
-		transition: border-bottom 1s;
+		transition: border-bottom 0.5s;
 		transition-timing-function: ease-in-out;
 
 		&:hover {
