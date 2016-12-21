@@ -11,6 +11,21 @@
 
 @include fancy-links;
 
+@include apply-to-ie-6 {
+	body {
+		font-size: 125%;
+	}
+}
+
+.error {
+	color: red;
+}
+.critical-error {
+	@extend .error;
+	border-bottom: 1px solid red;
+	font-weight: bold;
+}
+
 body {
   font-family: $text-font;
   color: $text-color;
@@ -46,10 +61,10 @@ a {
 	padding: 8px 12px;
 }
 
-@include apply-to-ie-6 {
-	body {
-		font-size: 125%;
-	}
+.cta-button {
+	@extend .warning-button;
+	@include rounded;
+	font-weight: bold;
 }
 
 #header {
@@ -113,4 +128,5 @@ a {
 #footer {
 	height: $footer-height;
 	background-color: $ternary-color;
+	clear: both;
 }
