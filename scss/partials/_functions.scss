@@ -16,3 +16,7 @@
 	@return ($page-width - $gap*($columns - 1)) / $columns;
 	// ($columns -1) because if you have 12 you only have 11 gaps
 }
+
+@function strip-unit($value) {
+	@return $value / ($value*0 + 1);
+}
