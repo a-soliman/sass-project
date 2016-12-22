@@ -65,6 +65,10 @@ p {
 
 a {
 	color: $link-color;
+	
+	@include blue-beans {
+		color: #8779ff;
+	}
 
 	&:hover {
 		color: darken($link-color, 10%);
@@ -144,4 +148,8 @@ a {
 	height: $footer-height;
 	background-color: $ternary-color;
 	clear: both;
+
+	@include rogers-rovers {
+		border-top: 5px solid darken($ternary-color, 15%);
+	}
 }
