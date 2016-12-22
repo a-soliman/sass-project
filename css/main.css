@@ -107,6 +107,7 @@ a {
 #footer {
   height: 50px;
   background-color: #698932;
-  clear: both; }
+  clear: both;
+  border-top: 5px solid #3e511e; }
 
 /*# sourceMappingURL=main.css.map */
