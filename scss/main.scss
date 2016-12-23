@@ -10,6 +10,13 @@
 	}
 }
 
+$speakers: bob-banker, patty-plume, sandra-smith;
+@each $speaker in $speakers {
+	.#{$speaker}-profile {
+		background-image: url('/img/#{$speaker}.png')
+	}
+}
+
 @include google-font("Alegreya+Sans");
 @include google-font("Titillium+Web");
 
